@@ -1,0 +1,26 @@
+    1  sudo csis@172.24.16.72
+    2  bash Anaconda3-2019.10-Linux-x86_64.sh 
+    3  source ~/.bashrc 
+    4  conda list
+    5  conda create --name QAEnv python=3
+    6  exit
+   
+	7  conda activate QAEnv
+    8  sudo apt install python3-pip
+    9  pip install flask
+   10  pip install requests
+   11  pip install bs4 
+   12  pip install nltk
+   13  pip install numpy
+   14  pip install sklearn
+   15  pip install pandas
+   16  pip install gensim
+   17  pip install spacy
+   18  python -m spacy download en_core_web_sm
+   19  pip install sner
+   20  pip install html5lib
+   21  pip install lxml
+   22  pip install torch
+   23  pip install pytorch-transformers
+
+   24  python app.py 

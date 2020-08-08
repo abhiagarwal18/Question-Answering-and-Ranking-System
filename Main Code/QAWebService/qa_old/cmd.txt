@@ -1,0 +1,4 @@
+export PATH=~/anaconda3/bin:$PATH
+source activate translate
+export GOOGLE_APPLICATION_CREDENTIALS="/home/kd/Workspace/translate/myrpproject1-bdf39beed338.json"
+python translate.py
