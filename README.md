@@ -15,7 +15,7 @@ The data about private organizations is available to these organizations only an
 
 ## Architecture
 
-![Architecture](./Images/Architecture.png?raw=true "Architecture")
+![Architecture](./Illustrations/Architecture.png?raw=true "Architecture")
 
 ## Classes for classification
 
@@ -76,7 +76,7 @@ Accuracy: `66.316%`
 
 ## Implementation
 
-![Question_Search](./Images/Question_Search.png?raw=true "Question_Search")
+![Question_Search](./Illustrations/Question_Search.png?raw=true "Question_Search")
 
 ## Context-Based Classification - BERT
 
@@ -99,7 +99,7 @@ In technical terms, the prediction of the output words requires:
 2. Multiplying the output vectors by the embedding matrix, transforming them into the vocabulary dimension.
 3. Calculating the probability of each word in the vocabulary with softmax.
 
-![MLM](./Images/MLM.png?raw=true "MLM")
+![MLM](./Illustrations/MLM.png?raw=true "MLM")
 
 ## Fine-tuning BERT for Q&A Task
 
@@ -107,20 +107,20 @@ In Question Answering tasks the software receives a question regarding a text se
 
 ### BERT Input Format
 
-![BERT_Input_Format](./Images/BERT_Input_Format.png?raw=true "BERT_Input_Format")
+![BERT_Input_Format](./Illustrations/BERT_Input_Format.png?raw=true "BERT_Input_Format")
 
 ### Start Token Classifier
 
-![Start_Token_Classifier](./Images/Start_Token_Classifier.png?raw=true "Start_Token_Classifier")
+![Start_Token_Classifier](./Illustrations/Start_Token_Classifier.png?raw=true "Start_Token_Classifier")
 
 ### End Token Classifier
 
-![End_Token_Classifier](./Images/End_Token_Classifier.png?raw=true "End_Token_Classifier")
+![End_Token_Classifier](./Illustrations/End_Token_Classifier.png?raw=true "End_Token_Classifier")
 
 
 ## Multilingual Application
 
-![Multilingual_App](./Images/Multilingual_App.png?raw=true "Multilingual_App")
+![Multilingual_App](./Illustrations/Multilingual_App.png?raw=true "Multilingual_App")
 
 
 ## Installing the Chrome Extension from Source
