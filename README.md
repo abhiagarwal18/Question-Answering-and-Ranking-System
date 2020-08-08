@@ -1,5 +1,5 @@
 # Question-Answering-and-Ranking-System
-A Web-application based chatbot based on Deep Learning 
+A Web-application based chatbot for answering queries presented by a user through web scraping and Deep Learning methods.
 
 ## Introduction
 
